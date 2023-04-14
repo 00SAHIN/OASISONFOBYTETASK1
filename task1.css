@@ -1,0 +1,100 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+  /* background-image: url("collage.jpeg"); */
+ /* width:100%; */
+ /* height: 50%; */
+ /* background-size: 100% 100%; */
+   
+.nav1{
+    width: 100%;
+    height: 50px;
+    color :rgb(201, 204, 4);
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+.nav1 a{
+    text-decoration: none;
+color: rgb(2, 2, 2);
+padding: 5px 10px;
+margin: 0 10px;
+background:rgb(231, 216, 7) ;
+border-radius: 20%;
+}
+.nav1 a:hover{
+    color: rgba(10, 216, 103, 0.938);
+}
+.nav2{
+    width: 100%;
+height: 40px;
+background: rgba(241, 148, 9, 0.836);
+color: rgb(0, 0, 0);
+ text-decoration:solid;
+ font-style: italic;
+justify-content: space-between;
+align-items: center;
+padding: 20px;}
+.menu a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    margin-top: 60px;
+}
+.menu a:hover{
+    color: rgb(11, 207, 60);
+    left:45%;
+}
+header{
+width: 100%;
+height: 100vh;
+background-image:linear-gradient(rgba(0, 0, 0, 0.7)80%,#cdda1ee3),url("collage.jpeg");
+background-size: 100% 100%;
+
+}
+.image{
+    size: 50px;
+    position:static;
+   }
+.h-text{
+
+    color: rgb(228, 171, 15);
+    position:absolute;
+    font-style: italic;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.h1-text{
+    size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.h-text span{
+    size: 30px;
+    color: rgb(203, 206, 17);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.h-text p{
+    font-size: 20px;
+    margin : 40px 0;
+    line-height: 30px;
+ }
+ .h-text a{
+    text-decoration: none;
+    color:rgb(234, 238, 12);
+    background: rgb(4, 0, 8);
+    padding: 10px 20px;
+    margin: 0 15px;
+        letter-spacing:5px ;
+ }
+ .h-text a:hover{
+    color: rgb(8, 201, 159);
+ }
